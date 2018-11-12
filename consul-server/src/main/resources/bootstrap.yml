@@ -1,0 +1,11 @@
+server:
+  port: 8520
+spring:
+  application:
+    name: spring-cloud-consul-producer
+  cloud:
+    consul:
+      host: consolcenter.xavier.com
+      port: 8500
+      discovery:
+        serviceName: service-producer

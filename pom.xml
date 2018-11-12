@@ -13,7 +13,7 @@
 
     <modules>
         <module>config-server</module>
-        <module>eureka-server</module>
+        <module>consul-server</module>
     </modules>
 
     <parent>
@@ -38,6 +38,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter</artifactId>
+        </dependency>
+        <!-- Actuator -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <!-- Junit Test -->
         <dependency>
